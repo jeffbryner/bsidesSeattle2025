@@ -24,11 +24,12 @@ Beyond email, document writing, summarizing. AI is great for
 
 - Follow Daniel Meissler’s program/markdown and use it to get credit for those big projects you got across the line, or remind you of why you pivoted.
 
-4) Agents to explore your data
+
+4) Risk analysis
+
+- Give AI the framing of a project/initiative and have it prompt you through a risk analysis to highlight next steps
+
+5) Agents to explore your data
 
 - Chat with your SOC, ticketing or other data stores to see what insights they may have without writing SQL/etc
 - vuln management
-
-5) Risk analysis
-
-- Give AI the framing of a project/initiative and have it prompt you through a risk analysis to highlight next steps
