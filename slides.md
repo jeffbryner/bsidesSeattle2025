@@ -35,6 +35,9 @@
 - Input: HITRUST
 - Output: Policy
 
+## Policy
+ ![](./demos/HITRUST-policy-writing.mp4)
+
 # Summarize yer SOC
 
 ## Idea 
@@ -47,6 +50,10 @@
 - Input: SOC alerts
 - Output: Daily summary
 
+## SOC Summary
+ ![](./demos/AlertSummary.mp4)
+
+
 # Get credit for your work
 
 ## Idea
@@ -57,6 +64,17 @@
 - Manage your security program with AI
 - Input: Security program described in markdown
 - Output: Conversations about your security program
+
+# Risk analysis
+
+## Idea
+
+- Give AI the framing of a project/initiative and have it prompt you through a risk analysis to highlight next steps
+
+## Demo
+- Use a team of risk experts acting together to get a risk analysis of a sample project
+- Input: Project description
+- Output: Risk analysis
 
 # Agents to explore your data
 
@@ -69,16 +87,7 @@
 - Input: SOC data, vulnerability data
 - Output: Conversational interaction with your data.
 
-# Risk analysis
 
-## Idea
-
-- Give AI the framing of a project/initiative and have it prompt you through a risk analysis to highlight next steps
-
-## Demo
-- Use the Mozilla Rapid Risk Asessment tool to get a risk analysis of a sample project
-- Input: Project description, Mozilla Rapid Risk Assessment Framework
-- Output: Risk analysis
 
 
 # Thank you!
