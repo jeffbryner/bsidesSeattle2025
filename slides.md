@@ -88,6 +88,7 @@
 - Use a team of risk experts acting together to get a risk analysis of a sample project
 - Input: Project description
 - Output: Risk analysis
+- Code available at: https://github.com/aniket-work/Lets-Build-Enterprise-Cybersecurity-Risk-Assessment-Using-AI-Agents
 
 # Agents to explore your data
 
@@ -99,6 +100,11 @@
 - Have a conversation with your data.
 - Input: SOC data, vulnerability data
 - Output: Conversational interaction with your data.
+- Code available at: https://github.com/jeffbryner/illuminAIte
+
+## Conversation with data
+[![video session](https://img.youtube.com/vi/KnX_4-sD7Hg/0.jpg)](https://www.youtube.com/watch?v=KnX_4-sD7Hg)
+
 
 
 
