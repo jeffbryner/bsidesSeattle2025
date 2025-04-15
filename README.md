@@ -33,3 +33,35 @@ Beyond email, document writing, summarizing. AI is great for
 
 - Chat with your SOC, ticketing or other data stores to see what insights they may have without writing SQL/etc
 - vuln management
+
+#### Running the sample code
+Best to run the code in a virtual environment. I like using uv: 
+
+- https://docs.astral.sh/uv/getting-started/installation/
+
+### tl;dr installation
+``` 
+# mac
+brew install uv
+
+# windows
+powershell -c "irm https://astral.sh/uv/install.ps1 | more"
+
+# or install from https://github.com/astral-sh/uv/releases
+
+```
+### Clone the repository for this talk
+
+```
+git clone https://github.com/jeffbryner/bsidesseattle2025.git
+cd bsidesseattle2025
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
+```
+### Run the code
+```
+cd demos/<whichever demo>
+python main.py
+```
+
