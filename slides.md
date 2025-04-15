@@ -6,12 +6,13 @@
 
 ## Big Idea
 
-- USE AI 
+- Security teams should USE AI
 - AI can help you reduce toil
 - AI can give you that time back to do other things
+- AI can help you do things you wouldn't normally be able to do
 
 ## What this talk is
-- A practical, actionable talk on how to use AI in your security program
+- An actionable talk on how to use AI in your security program
 - Live DEMOS (demo gods beware)
 - Practical
 
@@ -32,6 +33,7 @@
 
 ## Demo
 - Writing policy without writing policy
+- Vibe GRC-ing? 
 - Input: HITRUST
 - Output: Policy
 
@@ -43,7 +45,9 @@
 ## Idea 
 
 - How much effort do you put into daily summaries, shift turnover notes, upstream reporting, etc from your SOC? 
-- AI can help you with repeatable, punctual, predictable summaries and give you that time back
+- Maybe you don't do it at all because it's a pain? 
+- AI can help you with repeatable, punctual, predictable summaries
+- Gives you that time back, or creates insights you wouldn't have otherwise had
 
 ## Demo
 - Summarizing daily SOC activity
@@ -53,6 +57,8 @@
 ## SOC Summary
  ![](./demos/AlertSummary.mp4)
 
+## SOC Summary via code
+- see ./demos/summarize-the-soc/
 
 # Get credit for your work
 
