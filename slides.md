@@ -59,6 +59,7 @@
 
 ## SOC Summary via code
 - see ./demos/summarize-the-soc/
+- sample file of alerts from: https://github.com/FrankHassanabad/suricata-sample-data/blob/master/samples/wrccdc-2018/alerts-only.json
 
 # Get credit for your work
 
