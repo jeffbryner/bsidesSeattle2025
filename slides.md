@@ -59,7 +59,7 @@
 
 ## SOC Summary via code
 - see ./demos/summarize-the-soc/
-- sample file of alerts from: https://github.com/FrankHassanabad/suricata-sample-data/blob/master/samples/wrccdc-2018/alerts-only.json
+- The sample file of alerts is from: https://github.com/FrankHassanabad/suricata-sample-data/blob/master/samples/wrccdc-2018/alerts-only.json
 
 # Get credit for your work
 
@@ -71,6 +71,12 @@
 - Manage your security program with AI
 - Input: Security program described in markdown
 - Output: Conversations about your security program
+
+## Alma Security Program Demo
+- see ./demos/get-credit-for-your-work/
+- The alma.md file is from https://github.com/danielmiessler/fabric/blob/main/Alma.md
+- The main.py uses this file to have a conversation about your security program using your selected LLM
+
 
 # Risk analysis
 
