@@ -34,6 +34,10 @@ Beyond email, document writing, summarizing. AI is great for
 - Chat with your SOC, ticketing or other data stores to see what insights they may have without writing SQL/etc
 - vuln management
 
+### Slides
+The slides are available in reveal.js format at https://blog.jeffbryner.com/bsidesSeattle2025/slides.html
+
+
 #### Running the sample code
 Best to run the code in a virtual environment. I like using uv: 
 
