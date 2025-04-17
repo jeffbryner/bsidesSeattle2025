@@ -40,6 +40,17 @@
 ## Policy
  ![](./demos/HITRUST-policy-writing.mp4)
 
+::: notes
+
+We are using aistudio.google.com for ease of access and configuration.
+- You can choose a LLM model
+- Tweak the temperature and other settings
+- We upload HITRUST as a PDF (a 500 page document!)
+- Gemini allows a really large context window which is great for big documents like this
+- Then with a simple prompt, and positive vibes we get a policy document
+
+::: 
+
 # Summarize yer SOC
 
 ## Idea 
