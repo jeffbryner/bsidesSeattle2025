@@ -31,9 +31,9 @@
 - Summarizing compliance docs like HITRUST, NIST, etc or customer contracts
 - Write Policy documents
 
-## Demo
+## Demo: Vibe GRC!
+- VibeAI: not just for developers
 - Writing policy without writing policy
-- Vibe GRC-ing? 
 - Input: HITRUST
 - Output: Policy
 
@@ -76,6 +76,9 @@
 - see ./demos/get-credit-for-your-work/
 - The alma.md file is from https://github.com/danielmiessler/fabric/blob/main/Alma.md
 - The main.py uses this file to have a conversation about your security program using your selected LLM
+
+## Alma Security Program Video
+ ![](./demos/ProgramManagement.mp4)
 
 
 # Risk analysis
