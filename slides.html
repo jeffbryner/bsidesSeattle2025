@@ -38,14 +38,26 @@
 
 <section id="title-slide">
   <h1 class="title">Bsides Seattle 2025</h1>
-  <p class="author">Jeff Bryner</p>
-  <p class="date">https://github.com/jeffbryner/bsidesSeattle2025</p>
+  <p class="author"><a
+href="https://github.com/jeffbryner/bsidesSeattle2025">Jeff
+Bryner</a></p>
+  <p class="date">press ? for help, space for next slide</p>
 </section>
 
 <section>
 <section id="ai-for-security" class="title-slide slide level1">
 <h1>AI FOR security</h1>
 
+</section>
+<section id="slideshow-note" class="slide level2">
+<h2>Slideshow note</h2>
+<ul>
+<li>This includes text to speech as a substitute for me</li>
+<li>press ? for help navigating</li>
+<li>press o for an overview of the slides</li>
+<li>simply pressing space will advance to the next slide</li>
+<li>press t to toggle speech on/off</li>
+</ul>
 </section>
 <section id="big-idea" class="slide level2">
 <h2>Big Idea</h2>
@@ -55,14 +67,26 @@
 <li>AI can give you that time back to do other things</li>
 <li>AI can help you do things you wouldn’t normally be able to do</li>
 </ul>
+<p><audio data-src="./big_idea.mp3" controls=""><a
+href="./big_idea.mp3">Audio</a></audio></p>
+<aside class="notes">
+<p>Here’s the big idea. Security teams should USE AI in addition to
+worrying about the security <em>OF</em> AI. AI can help your security
+program in the same way it can help your business. Join your business
+colleagues in adopting AI.</p>
+</aside>
 </section>
 <section id="what-this-talk-is" class="slide level2">
 <h2>What this talk is</h2>
 <ul>
-<li>An actionable talk on how to use AI in your security program</li>
+<li>Actionable: how to use AI in your security program</li>
 <li>Live DEMOS (demo gods beware)</li>
 <li>Practical</li>
 </ul>
+<aside class="notes">
+<p>This is meant to be an actionable talk on how to use AI in your
+security program, including demos because those are always fun!</p>
+</aside>
 </section>
 <section id="what-this-talk-is-not" class="slide level2">
 <h2>What this talk is not</h2>
@@ -73,6 +97,9 @@
 <li>Perfect. I’m not a perfect speaker, I don’t know everything, AI
 moves fast!</li>
 </ul>
+<aside class="notes">
+<p>That said, here’s the things this talk is not.</p>
+</aside>
 </section></section>
 <section>
 <section id="general-productivity" class="title-slide slide level1">
@@ -87,6 +114,13 @@ moves fast!</li>
 contracts</li>
 <li>Write Policy documents</li>
 </ul>
+<aside class="notes">
+<p>You can start very simply by starting to use AI for general
+productivity. Save the toil of meeting minutes, summarizing documents,
+avoiding the tyranny of the blank page and use it to help your
+remote/distributed team connect and stay in tune with what is happening
+in your program.</p>
+</aside>
 </section>
 <section id="demo-vibe-grc" class="slide level2">
 <h2>Demo: Vibe GRC!</h2>
@@ -96,18 +130,24 @@ contracts</li>
 <li>Input: HITRUST</li>
 <li>Output: Policy</li>
 </ul>
+<aside class="notes">
+<p>Now we get to be cool like developers! They aren’t the only ones
+doing “VIBE” work, we can do VIBE GRC!</p>
+</aside>
 </section>
 <section id="policy" class="slide level2">
 <h2>Policy</h2>
 <p><video data-src="./demos/HITRUST-policy-writing.mp4" controls=""><a
 href="./demos/HITRUST-policy-writing.mp4">Video</a></video></p>
 <aside class="notes">
-<p>We are using aistudio.google.com for ease of access and
-configuration. - You can choose a LLM model - Tweak the temperature and
-other settings - We upload HITRUST as a PDF (a 500 page document!) -
-Gemini allows a really large context window which is great for big
-documents like this - Then with a simple prompt, and positive vibes we
-get a policy document</p>
+<p>We are using ai-studio.google.com for ease of access and
+configuration. - You can choose a LLM model. - You can tweak the
+temperature and other settings. - We upload HIGH-TRUST as a PDF. It’s a
+500 page document! - Gemini allows a really large context window which
+is great for big documents like this. - Then with a simple prompt, and
+some positive vibes we get a policy document! - It’ll take a little
+while to generate, but it’s worth it! - You’ll see it expose it’s
+thought process along the way as it works on this.</p>
 </aside>
 </section></section>
 <section>
@@ -126,6 +166,13 @@ summaries</li>
 <li>Gives you that time back, or creates insights you wouldn’t have
 otherwise had</li>
 </ul>
+<aside class="notes">
+<p>If you run a security operations center you probably spend a lot of
+time doing the same things over and over. One of those is probably
+writing summaries of what happened in the SOC so others have context of
+daily operations. AI can definitely help with this, reduce toil and give
+you repeatable summaries of complex events.</p>
+</aside>
 </section>
 <section id="demo" class="slide level2">
 <h2>Demo</h2>
@@ -139,6 +186,12 @@ otherwise had</li>
 <h2>SOC Summary</h2>
 <p><video data-src="./demos/AlertSummary.mp4" controls=""><a
 href="./demos/AlertSummary.mp4">Video</a></video></p>
+<aside class="notes">
+<p>We are using AI-studio again, simply uploadingn a sample alert JSON
+file and asking AI to give us a summary of the day. You’ll notice it can
+include it’s thoughts about how to complete the task in addition to the
+actual summary.</p>
+</aside>
 </section>
 <section id="soc-summary-via-code" class="slide level2">
 <h2>SOC Summary via code</h2>
@@ -147,6 +200,12 @@ href="./demos/AlertSummary.mp4">Video</a></video></p>
 <li>The sample file of alerts is from:
 https://github.com/FrankHassanabad/suricata-sample-data/blob/master/samples/wrccdc-2018/alerts-only.json</li>
 </ul>
+<aside class="notes">
+<p>There is also a code demo that does the same thing available in the
+github repository for this talk. It allows you to pick a provider like
+google or open AI and perform the same task programatically. Now you can
+include this in your own SOC operations.</p>
+</aside>
 </section></section>
 <section>
 <section id="get-credit-for-your-work" class="title-slide slide level1">
@@ -164,6 +223,12 @@ security program markdown template</a> and use it to get credit for
 those big projects you got across the line, or remind you of why you
 pivoted.</li>
 </ul>
+<aside class="notes">
+<p>Daniell Meissler had a great idea about how to get credit for your
+work. Using a simple markdown template to describe your security
+program, you can refer to it with the help of AI to answer those big
+questions about your security program.</p>
+</aside>
 </section>
 <section id="demo-1" class="slide level2">
 <h2>Demo</h2>
@@ -182,11 +247,24 @@ https://github.com/danielmiessler/fabric/blob/main/Alma.md</li>
 <li>The main.py uses this file to have a conversation about your
 security program using your selected LLM</li>
 </ul>
+<aside class="notes">
+<p>The code for this demo is also in the github repository for this
+talk. It uses a sample markdown file and the agno agent framework. The
+agent has a simple file system tool to allow it to read markdown files.
+It’s a good template for other agents with similar goals.</p>
+</aside>
 </section>
 <section id="alma-security-program-video" class="slide level2">
 <h2>Alma Security Program Video</h2>
 <p><video data-src="./demos/ProgramManagement.mp4" controls=""><a
 href="./demos/ProgramManagement.mp4">Video</a></video></p>
+<aside class="notes">
+<p>Here’s a quick demo of how you might use this. When your stakeholders
+need summaries of what is happening, simply ask AI to help you get your
+message across. You’ll notice the agent considers how to answer your
+question, noticed the markdown file, reads it and then answers your
+question</p>
+</aside>
 </section></section>
 <section>
 <section id="risk-analysis" class="title-slide slide level1">
@@ -196,8 +274,9 @@ href="./demos/ProgramManagement.mp4">Video</a></video></p>
 <section id="idea-2" class="slide level2">
 <h2>Idea</h2>
 <ul>
-<li>Give AI the framing of a project/initiative and have it prompt you
-through a risk analysis to highlight next steps</li>
+<li>Give AI the framing of a project/initiative</li>
+<li>Have it prompt you through a risk analysis</li>
+<li>Uses a team of agents</li>
 </ul>
 </section>
 <section id="demo-2" class="slide level2">
@@ -207,9 +286,23 @@ through a risk analysis to highlight next steps</li>
 a sample project</li>
 <li>Input: Project description</li>
 <li>Output: Risk analysis</li>
-<li>Code available at:
-https://github.com/aniket-work/Lets-Build-Enterprise-Cybersecurity-Risk-Assessment-Using-AI-Agents</li>
+<li>Code available <a
+href="https://github.com/aniket-work/Lets-Build-Enterprise-Cybersecurity-Risk-Assessment-Using-AI-Agents">here</a></li>
 </ul>
+<aside class="notes">
+<p>Aniket Hingane had a great idea of using multiple AI agents working
+together as a risk analysis team. He’s got a great starter repository
+for this linked in this slide.</p>
+</aside>
+</section>
+<section id="team-of-risk-experts" class="slide level2">
+<h2>Team of Risk Experts</h2>
+<p><img data-src="./images/agent-team.png" /></p>
+<aside class="notes">
+<p>He’s built a simple configuration file allowing you to setup agent
+personas and includes a Security Architect, a Risk analyst, a Compliance
+officer and a Security Pen-tester.</p>
+</aside>
 </section></section>
 <section>
 <section id="agents-to-explore-your-data"
@@ -223,6 +316,12 @@ class="title-slide slide level1">
 <li>Chat with your SOC, ticketing or other data stores to see what
 insights they may have without writing SQL/etc</li>
 </ul>
+<aside class="notes">
+<p>Last example is using AI to help you explore your data. As security
+practitioners we often end up with random JSON or CSV files handed to us
+that we need to explore or join together. Without databases, we end up
+resorting to spreadsheets like cavemen.</p>
+</aside>
 </section>
 <section id="demo-3" class="slide level2">
 <h2>Demo</h2>
@@ -230,14 +329,23 @@ insights they may have without writing SQL/etc</li>
 <li>Have a conversation with your data.</li>
 <li>Input: SOC data, vulnerability data</li>
 <li>Output: Conversational interaction with your data.</li>
-<li>Code available at: https://github.com/jeffbryner/illuminAIte</li>
+<li>Code available at: <a
+href="https://github.com/jeffbryner/illuminAIte">https://github.com/jeffbryner/illuminAIte</a></li>
 </ul>
 </section>
 <section id="conversation-with-data" class="slide level2">
 <h2>Conversation with data</h2>
-<p><a href="https://www.youtube.com/watch?v=KnX_4-sD7Hg"><img
-data-src="https://img.youtube.com/vi/KnX_4-sD7Hg/0.jpg"
-alt="video session" /></a></p>
+<p><video data-src="./demos/illuminAIte.mp4" controls=""><a
+href="./demos/illuminAIte.mp4">Video</a></video></p>
+<aside class="notes">
+<p>Here’s a quick demo of illuminAIte in action. You’ll see it allows
+for a natural conversation with the AI agent. The agent knows it has
+tools to list files, import data and use a local database to explore.
+Other than that it has no special knowledge of your data. You’ll notice
+it using it’s set of tools, making mistakes and correcting itself. The
+tool also has the ability to display data in basic graphs and data
+frames to allow a variety of data exploration.</p>
+</aside>
 </section></section>
 <section>
 <section id="thank-you" class="title-slide slide level1">
@@ -247,9 +355,11 @@ alt="video session" /></a></p>
 <section id="jeff-bryner" class="slide level2">
 <h2>Jeff Bryner</h2>
 <ul>
-<li><span class="citation" data-cites="0x7eff">@0x7eff</span></li>
-<li>https://jeffbryner.com</li>
-<li>https://github.com/jeffbryner</li>
+<li><a href="https://bsky.app/profile/0x7eff.bsky.social"><span
+class="citation" data-cites="0x7eff">@0x7eff</span></a></li>
+<li><a href="https://jeffbryner.com">https://jeffbryner.com</a></li>
+<li><a
+href="https://github.com/jeffbryner">https://github.com/jeffbryner</a></li>
 </ul>
 </section></section>
     </div>
@@ -261,6 +371,7 @@ alt="video session" /></a></p>
   <script src="https://unpkg.com/reveal.js/plugin/notes/notes.js"></script>
   <script src="https://unpkg.com/reveal.js/plugin/search/search.js"></script>
   <script src="https://unpkg.com/reveal.js/plugin/zoom/zoom.js"></script>
+  
 
   <script>
 
@@ -353,7 +464,7 @@ alt="video session" /></a></p>
         showNotes: false,
 
         // Global override for autoplaying embedded media (null/true/false)
-        autoPlayMedia: null,
+        autoPlayMedia: true,
 
         // Global override for preloading lazy-loaded iframes (null/true/false)
         preloadIframes: null,
@@ -412,8 +523,10 @@ alt="video session" /></a></p>
           RevealNotes,
           RevealSearch,
           RevealZoom
-        ]
+        ],
+      dependencies: [{ src: 'plugins/tts_min_reveal.js', async: true },]              
       });
+      
     </script>
     </body>
 </html>
