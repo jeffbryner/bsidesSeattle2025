@@ -1,3 +1,5 @@
 google-genai
 agno
 sqlalchemy
+openai
+ollama

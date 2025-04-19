@@ -20,9 +20,9 @@
 
 ::: notes
 
-Here's the big idea. Security teams should USE AI in addition to worrying about the security *OF* AI.
-AI can help your security program in the same way it can help your business.
-Join your business colleagues in adopting AI.
+Here's the big idea. Security teams should USE AI in addition to worrying about the security of AI.
+AI can help augment your security program in the same way it can help your business.
+Join your business colleagues in adopting AI with these starter ideas.
 
 :::
 
@@ -104,7 +104,7 @@ We are using ai-studio.google.com for ease of access and configuration.
 ::: notes
 
 If you run a security operations center you probably spend a lot of time doing the same things over and over. One of those is probably writing summaries of what happened in the SOC so others have context of daily operations. 
-AI can definitely help with this, reduce toil and give you repeatable summaries of complex events.
+AI can definitely help with this. Using AI can reduce toil and give you repeatable summaries of complex events.
 
 :::
 
@@ -124,8 +124,8 @@ AI can definitely help with this, reduce toil and give you repeatable summaries 
 :::
 
 ## SOC Summary via code
-- see ./demos/summarize-the-soc/
-- The sample file of alerts is from: https://github.com/FrankHassanabad/suricata-sample-data/blob/master/samples/wrccdc-2018/alerts-only.json
+- see [./demos/summarize-the-soc/](https://github.com/jeffbryner/bsidesSeattle2025/tree/main/demos/summarize-the-soc)
+- The sample file of alerts is from [this repo](https://github.com/FrankHassanabad/suricata-sample-data/blob/master/samples/wrccdc-2018/alerts-only.json)
 
 ::: notes
 
@@ -151,8 +151,8 @@ Daniell Meissler had a great idea about how to get credit for your work. Using a
 - Output: Conversations about your security program
 
 ## Alma Security Program Demo
-- see ./demos/get-credit-for-your-work/
-- The alma.md file is from https://github.com/danielmiessler/fabric/blob/main/Alma.md
+- see [./demos/get-credit-for-your-work/](https://github.com/jeffbryner/bsidesSeattle2025/tree/main/demos/get-credit-for-your-work)
+- The alma.md file is [from this repo](https://github.com/danielmiessler/fabric/blob/main/Alma.md)
 - The main.py uses this file to have a conversation about your security program using your selected LLM
 
 ::: notes
@@ -201,6 +201,18 @@ He's built a simple configuration file allowing you to setup agent personas and 
 
 :::
 
+## Video: Team of Risk Experts
+![](./demos/RiskAnalysisAgentTeam.mp4)
+
+::: notes
+
+Here's a video of the risk analysis team at work. You start a streamlit server to get the web interface. Enter your project description and you can watch the agents start to work together on the project. 
+
+As they complete their work, you can see them hand off to the next agent. When they are all complete, the final output is presented in the web UI as a complete risk analysis of your project from different perspectives.
+
+:::
+
+
 # Agents to explore your data
 
 ## Idea
@@ -209,7 +221,7 @@ He's built a simple configuration file allowing you to setup agent personas and 
 
 ::: notes
 
-Last example is using AI to help you explore your data. As security practitioners we often end up with random JSON or CSV files handed to us that we need to explore or join together. Without databases, we end up resorting to spreadsheets like cavemen. 
+The Last example for this presentation is of using AI to help you explore your data. As security practitioners we often end up with random JSON or CSV files handed to us that we need to explore or join together. Without databases, we end up resorting to spreadsheets like cavemen. 
 
 :::
 
@@ -236,3 +248,9 @@ The tool also has the ability to display data in basic graphs and data frames to
 - [@0x7eff](https://bsky.app/profile/0x7eff.bsky.social)
 - [https://jeffbryner.com](https://jeffbryner.com)
 - [https://github.com/jeffbryner](https://github.com/jeffbryner)
+
+::: notes
+
+Thanks for checking out my talk! I hope this has been a useful exploration of how you might use AI in your security program.
+
+:::
