@@ -104,7 +104,7 @@ We are using ai-studio.google.com for ease of access and configuration.
 ::: notes
 
 If you run a security operations center you probably spend a lot of time doing the same things over and over. One of those is probably writing summaries of what happened in the SOC so others have context of daily operations. 
-AI can definitely help with this, reduce toil and give you repeatable summaries of complex events.
+AI can definitely help with this. Using AI can reduce toil and give you repeatable summaries of complex events.
 
 :::
 
@@ -124,8 +124,8 @@ AI can definitely help with this, reduce toil and give you repeatable summaries 
 :::
 
 ## SOC Summary via code
-- see ./demos/summarize-the-soc/
-- The sample file of alerts is from: https://github.com/FrankHassanabad/suricata-sample-data/blob/master/samples/wrccdc-2018/alerts-only.json
+- see [./demos/summarize-the-soc/](https://github.com/jeffbryner/bsidesSeattle2025/tree/main/demos/summarize-the-soc)
+- The sample file of alerts is from [this repo](https://github.com/FrankHassanabad/suricata-sample-data/blob/master/samples/wrccdc-2018/alerts-only.json)
 
 ::: notes
 
@@ -151,8 +151,8 @@ Daniell Meissler had a great idea about how to get credit for your work. Using a
 - Output: Conversations about your security program
 
 ## Alma Security Program Demo
-- see ./demos/get-credit-for-your-work/
-- The alma.md file is from https://github.com/danielmiessler/fabric/blob/main/Alma.md
+- see [./demos/get-credit-for-your-work/](https://github.com/jeffbryner/bsidesSeattle2025/tree/main/demos/get-credit-for-your-work)
+- The alma.md file is [from this repo](https://github.com/danielmiessler/fabric/blob/main/Alma.md)
 - The main.py uses this file to have a conversation about your security program using your selected LLM
 
 ::: notes
@@ -248,3 +248,9 @@ The tool also has the ability to display data in basic graphs and data frames to
 - [@0x7eff](https://bsky.app/profile/0x7eff.bsky.social)
 - [https://jeffbryner.com](https://jeffbryner.com)
 - [https://github.com/jeffbryner](https://github.com/jeffbryner)
+
+::: notes
+
+Thanks for checking out my talk! I hope this has been a useful exploration of how you might use AI in your security program.
+
+:::
