@@ -20,9 +20,9 @@
 
 ::: notes
 
-Here's the big idea. Security teams should USE AI in addition to worrying about the security *OF* AI.
-AI can help your security program in the same way it can help your business.
-Join your business colleagues in adopting AI.
+Here's the big idea. Security teams should USE AI in addition to worrying about the security of AI.
+AI can help augment your security program in the same way it can help your business.
+Join your business colleagues in adopting AI with these starter ideas.
 
 :::
 
@@ -201,6 +201,18 @@ He's built a simple configuration file allowing you to setup agent personas and 
 
 :::
 
+## Video: Team of Risk Experts
+![](./demos/RiskAnalysisAgentTeam.mp4)
+
+::: notes
+
+Here's a video of the risk analysis team at work. You start a streamlit server to get the web interface. Enter your project description and you can watch the agents start to work together on the project. 
+
+As they complete their work, you can see them hand off to the next agent. When they are all complete, the final output is presented in the web UI as a complete risk analysis of your project from different perspectives.
+
+:::
+
+
 # Agents to explore your data
 
 ## Idea
@@ -209,7 +221,7 @@ He's built a simple configuration file allowing you to setup agent personas and 
 
 ::: notes
 
-Last example is using AI to help you explore your data. As security practitioners we often end up with random JSON or CSV files handed to us that we need to explore or join together. Without databases, we end up resorting to spreadsheets like cavemen. 
+The Last example for this presentation is of using AI to help you explore your data. As security practitioners we often end up with random JSON or CSV files handed to us that we need to explore or join together. Without databases, we end up resorting to spreadsheets like cavemen. 
 
 :::
 
